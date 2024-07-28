@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=4 format=3 uid="uid://c43fy184p3pnp"]
+
+[ext_resource type="Texture2D" uid="uid://cwf6dyi56tgo" path="res://art/tile_0088.png" id="1_3c11i"]
+[ext_resource type="Script" path="res://custom_resources/character_stats.gd" id="1_u2lsf"]
+[ext_resource type="Resource" uid="uid://cd6de0eo85hpy" path="res://characters/warrior/warrior_starting_deck.tres" id="3_7epfd"]
+
+[resource]
+script = ExtResource("1_u2lsf")
+character_name = "Assassin"
+description = "Watch yer back!"
+portrait = ExtResource("1_3c11i")
+starting_deck = ExtResource("3_7epfd")
+cards_per_turn = 5
+max_mana = 3
+max_health = 30
+art = ExtResource("1_3c11i")

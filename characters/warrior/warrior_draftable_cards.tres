@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardPile" load_steps=6 format=3 uid="uid://dk6b1biod6bla"]
+
+[ext_resource type="Script" path="res://custom_resources/card_pile.gd" id="1_8d4ov"]
+[ext_resource type="Resource" uid="uid://bbha78fsmlhub" path="res://characters/warrior/cards/warrior_block.tres" id="1_28ya3"]
+[ext_resource type="Resource" uid="uid://cn51f8t4q3cj3" path="res://characters/warrior/cards/warrior_slash.tres" id="2_f7m5j"]
+[ext_resource type="Resource" uid="uid://5jn6f5kojjd5" path="res://characters/warrior/cards/warrior_big_slam.tres" id="3_2oe65"]
+[ext_resource type="Resource" uid="uid://ebkv45omsm30" path="res://characters/warrior/cards/warrior_true_strength.tres" id="4_pqnjq"]
+
+[resource]
+script = ExtResource("1_8d4ov")
+cards = Array[Resource("res://custom_resources/card.gd")]([ExtResource("1_28ya3"), ExtResource("1_28ya3"), ExtResource("2_f7m5j"), ExtResource("3_2oe65"), ExtResource("3_2oe65"), ExtResource("3_2oe65"), ExtResource("4_pqnjq"), ExtResource("4_pqnjq"), ExtResource("4_pqnjq")])
